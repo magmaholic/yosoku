@@ -1,0 +1,20 @@
+{
+    "name": "Yosoku bot",
+    "version": "1.0.0",
+    "main": "src/bot.js",
+    "author": "Ainar Leedu",
+    "scripts": {
+        "sql": "heroku pg:psql -a yosoku-app",
+        "sql-test": "heroku pg:psql -a yosoku-app-dev"
+    },
+    "dependencies": {
+        "cheerio": "latest",
+        "curlrequest": "^1.0.1",
+        "discord.js": "^11.3.0",
+        "dotenv": "^5.0.1",
+        "pg": "7.4.1",
+        "request": "^2.83.0",
+        "request-promise": "^4.2.2",
+        "winston": "^2.4.0"
+    }
+}
