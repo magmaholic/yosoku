@@ -1,0 +1,2 @@
+# yosoku
+Yosoku discord bot
